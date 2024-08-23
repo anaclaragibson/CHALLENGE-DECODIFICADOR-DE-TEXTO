@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img class="cabecalho__imagem" src="/imagens/image-removebg-preview.png" alt="KOOKMIN">
+    </header>
+
+    <main>
+        <section>
+            <textarea class="texto_area" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+            
+            <div class="informacao">
+                <h6>Apenas letras minúsculas e sem acento.</h6>
+            </div>
+
+            <div class="botoes">
+                <button class="botao_criptografar" onclick="btnEncriptar()">Criptografar</button>
+                <button class="botao_descriptografar" onclick="btnDescriptar()">Descriptografar</button>
+            </div>
+        </section>
+
+        <section>
+                <textarea class="texto_mensagem" cols="20" rows="10"></textarea>
+                <button class="botao_copiar" onclick="btnCopiar()">Copiar</button>
+
+        </section>
+    </main>
+    <footer class="rodape">
+    </footer>
+    <script src="dev.js"></script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+ 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F6EACB;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem; 
+    line-height: 150%;
+}
+
+
+.cabecalho__imagem {
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 5%;
+
+}
+
+main {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.texto_area {
+    color: black;
+    border: none;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder{color:white;}
+    .texto_area:focus{
+        outline:none;
+    }
+
+.texto_mensagem {
+    background-color: #F4D9D0;
+    background-repeat:no-repeat;
+    color: #495057;
+    border: none;
+    border-radius: 24px;
+    color: black;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+}
+.texto_mensagem:focus {
+    outline: none;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+}
+
+.botao_descriptografar {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    background: #EECAD5;
+    border: 1px solid #EECAD5;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 50%;
+}
+
+.botao_criptografar {
+    display: flex;
+    justify-content: center;
+    background-color: #E0A75E;
+    border: 1px solid #E0A75E;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 50%;
+}
+
+.botao_copiar {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #F6EACB;
+    border-radius: 24px;
+    background-color: #C75B7A;
+    color:white;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+    width: 336px;
+}
+
+.informacao {
+    color:#495057;
+    font-size: 2px;
+    background-image: url(/imagens/bi_exclamation-circle-fill.png);
+}
+
